@@ -1,1 +1,66 @@
-aggiunta homepage
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetrina Creativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Audio & Video che parlano da soli</h1>
+        <p>Creazioni digitali essenziali, immersive e curate nel dettaglio.</p>
+        <a href="#works" class="btn">Esplora i contenuti</a>
+    </section>
+
+    <!-- Mini Intro -->
+    <section class="intro">
+        <p>Realizzo contenuti audio e video con un approccio minimale, emozionale e diretto. Ogni progetto è pensato per essere visto, ascoltato e ricordato.</p>
+    </section>
+
+    <!-- Sezione Video -->
+    <section id="works" class="videos">
+        <h2>Video in evidenza</h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <iframe src="https://player.vimeo.com/video/123456789" frameborder="0" allowfullscreen></iframe>
+                <p>Titolo Video 1</p>
+            </div>
+            <div class="video-card">
+                <iframe src="https://player.vimeo.com/video/987654321" frameborder="0" allowfullscreen></iframe>
+                <p>Titolo Video 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Audio -->
+    <section class="audios">
+        <h2>Audio selezionati</h2>
+        <div class="audio-grid">
+            <div class="audio-card">
+                <p>Titolo Traccia 1</p>
+                <audio controls>
+                    <source src="audio1.mp3" type="audio/mpeg">
+                    Il tuo browser non supporta l'audio.
+                </audio>
+            </div>
+            <div class="audio-card">
+                <p>Titolo Traccia 2</p>
+                <audio controls>
+                    <source src="audio2.mp3" type="audio/mpeg">
+                    Il tuo browser non supporta l'audio.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section class="contact">
+        <h2>Contattami</h2>
+        <p>Per collaborazioni o progetti: <a href="mailto:tuo@email.com">tuo@email.com</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
